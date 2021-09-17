@@ -1,0 +1,2 @@
+lindex	lname	address
+0	5	102

@@ -1,0 +1,7 @@
+AD 1 C 100
+IS 3 1 L 0
+IS 4 2 S 1
+AD 3
+DL 1 - C 4
+DL 2 - C 4
+AD 2

@@ -1,0 +1,20 @@
+              START   100
+              READ    N
+              MOVER     BREG   ONE
+              MOVEM     BREG   TWO
+AGAIN   MULT         BREG    TWO
+              MOVER     CREG    TWO 
+              ADD           CREG    TWO 
+              MOVEM     CREG    TWO 
+              COMP        CREG    A
+              BC             LE           AGAIN
+              DIV            BREG     TWO
+              MOVEM     BREG     B        
+              PRINT        B
+              STOP 
+N          DS         1
+A           DS         1
+B           DC         '1'
+ONE      DS         1
+TWO     DS         '2'
+              END
