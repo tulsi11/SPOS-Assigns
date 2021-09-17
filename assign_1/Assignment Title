@@ -1,0 +1,1 @@
+Design a suitable data structure and implement pass 1 and pass 2 of a two pass assembler for pseudo machine. The output of pass1 should be input to pass 2.
